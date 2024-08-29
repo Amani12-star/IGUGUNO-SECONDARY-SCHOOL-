@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IGUGUNO SECONDARY SCHOOL</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #006400;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 5px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #228B22;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #2E8B57;
+        }
+        .container {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        .home-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .home-content img, .home-content video {
+            width: 100%;
+            max-width: 600px;
+        }
+        footer {
+            background-color: #006400;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>IGUGUNO SECONDARY SCHOOL</h1>
+        <p>Welcome to our school</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+    </nav>
+
+    <div class="container">
+        <section id="home">
+            <h2>Home</h2>
+            <div class="home-content">
+                <!-- Add your school's pictures here -->
+                <img src="https://via.placeholder.com/600x400" alt="School Photo 1">
+                <img src="https://via.placeholder.com/600x400" alt="School Photo 2">
+
+                <!-- Add a video about your school here -->
+                <video controls>
+                    <source src="school-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+
+                <!-- Current news -->
+                <div>
+                    <h3>Latest News</h3>
+                    <p>Stay updated with the latest news and announcements from Iguguno Secondary School.</p>
+                    <ul>
+                        <li>News item 1</li>
+                        <li>News item 2</li>
+                        <li>News item 3</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Iguguno Secondary School is located in Mkalama District, Singida Region, Tanzania. The school offers quality secondary education from Form One to Form Six. Our curriculum includes a variety of subjects to ensure our students receive a well-rounded education. We are committed to providing an environment that fosters academic excellence and personal growth.</p>
+        </section>
+
+        <section id="services">
+            <h2>Services</h2>
+            <p>At Iguguno Secondary School, the following services can be accessed through our website:</p>
+            <ul>
+                <li><a href="#teachers">List of Teachers</a></li>
+                <li><a href="#exams">Examination Reports</a></li>
+                <li><a href="#map">School Map</a></li>
+                <li><a href="#contact">Contact Information</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Iguguno Secondary School. All rights reserved.</p>
+    </footer>
+</body>
+</html>
